@@ -465,8 +465,83 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe">
+          <p class="last-name">Subscribe</p>
+          <form class="qwerty">
+            <label class="email-icon email">
+              <input
+                class="input"
+                type="email"
+                name="email_address"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button-style button-text">
+              Subscribe
+              <svg class="icon-tg" width="24" height="24">
+                <use href="./images/icon-soc.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-----------------------------------BACKDROP---------------------------------------->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="model-close-btm" type="button">
+          <svg class="model-close-btm-icon" width=" 8" height="8">
+            <use href="./images/icon-soc.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="revier-four-slogan">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="review-form">
+          <div class="review-form-field-wrapper">
+            <lable class="review-form-field-lable" for="username">Name</lable>
+            <input class="review-form-input" type="text" id="username" />
+          </div>
+
+          <div class="review-form-field-wrapper">
+            <lable class="review-form-field-lable" for="user-phone"
+              >Phone</lable
+            >
+            <input class="review-form-input" type="text" id="user-phone" />
+          </div>
+
+          <div class="review-form-field-wrapper">
+            <lable class="review-form-field-lable" for="user-email"
+              >Email</lable
+            >
+            <input class="review-form-input" type="text" id="user-email" />
+          </div>
+
+          <div class="review-form-field-wrapper">
+            <lable class="review-form-field-lable" for="user-comm"
+              >Comment</lable
+            >
+            <texterea
+              class="review-form-message"
+              name=""
+              id="user-comm"
+            ></texterea>
+          </div>
+
+          <div class="review-form-checkbox-wrapper">
+            <input
+              class="review-form-checkbox"
+              type="checkbox"
+              name=""
+              id="checkbox"
+            />
+            <label class="review-policy" for="checkbox">
+              <span class="review-own-checkbox"></span>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

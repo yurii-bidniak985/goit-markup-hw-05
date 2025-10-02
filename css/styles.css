@@ -588,7 +588,7 @@ footer {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -616,7 +616,7 @@ footer {
     width: 408px;
     background-color: #fcfcfc;
     padding: 24px;   
-} */
+}
 
 .model-close-btm {
     position: absolute;

@@ -578,7 +578,7 @@ footer {
         color: #ffffff;
 }
 
-input {
+.input-one {
     background-color: transparent; 
     border: 1px solid #ffffff;
     border-radius: 4px;

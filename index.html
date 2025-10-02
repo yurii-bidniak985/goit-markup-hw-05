@@ -471,7 +471,7 @@
           <form class="qwerty">
             <label class="email-icon email">
               <input
-                class="input"
+                class="input-one"
                 type="email"
                 name="email_address"
                 placeholder="E-mail"
@@ -500,46 +500,60 @@
         </p>
         <form class="review-form">
           <div class="review-form-field-wrapper">
-            <lable class="review-form-field-lable" for="username">Name</lable>
-            <input class="review-form-input" type="text" id="username" />
-          </div>
-
-          <div class="review-form-field-wrapper">
-            <lable class="review-form-field-lable" for="user-phone"
-              >Phone</lable
-            >
-            <input class="review-form-input" type="text" id="user-phone" />
-          </div>
-
-          <div class="review-form-field-wrapper">
-            <lable class="review-form-field-lable" for="user-email"
-              >Email</lable
-            >
-            <input class="review-form-input" type="text" id="user-email" />
-          </div>
-
-          <div class="review-form-field-wrapper">
-            <lable class="review-form-field-lable" for="user-comm"
-              >Comment</lable
-            >
-            <texterea
-              class="review-form-message"
-              name=""
-              id="user-comm"
-            ></texterea>
-          </div>
-
-          <div class="review-form-checkbox-wrapper">
+            <label class="review-form-field-ladel" for="username">Name</label>
             <input
-              class="review-form-checkbox"
-              type="checkbox"
-              name=""
-              id="checkbox"
+              class="review-form-input"
+              type="text"
+              id="username"
+              name="username"
             />
-            <label class="review-policy" for="checkbox">
-              <span class="review-own-checkbox"></span>
+          </div>
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-ladel" for="user-tel">Phone</label>
+            <input
+              class="review-form-input"
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+            />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-ladel" for="user-email"
+              >Email</label
+            >
+            <input
+              class="review-form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+            />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label class="review-form-field-ladel" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="review-form-message"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="review-form-checkbox">
+            <input
+              class="review-form-policy-checkbox"
+              type="checkbox"
+              name="policy"
+              value="true"
+              id="policy"
+            />
+            <label class="review-form-policy-label" for="policy">
+              <span class="review-form-policy-own-checkbox"></span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
             </label>
           </div>
+          <button class="review-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
     </div>

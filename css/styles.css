@@ -600,7 +600,7 @@ footer {
     color: #ffffff;
 }
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -628,6 +628,10 @@ footer {
     width: 408px;
     background-color: #fcfcfc;
     padding: 24px;   
+} */
+
+.icon-tg {
+    margin-left: 16px;
 }
 
 .model-close-btm {

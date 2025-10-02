@@ -490,43 +490,62 @@
     <!-----------------------------------BACKDROP---------------------------------------->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="model-close-btm" type="button">
+        <button class="model-close-btm" type="button" width="24" height="24">
           <svg class="model-close-btm-icon" width=" 8" height="8">
             <use href="./images/icon-soc.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+
         <p class="revier-four-slogan">
           Leave your contacts and we will call you back
         </p>
         <form class="review-form">
           <div class="review-form-field-wrapper">
             <label class="review-form-field-ladel" for="username">Name</label>
-            <input
-              class="review-form-input"
-              type="text"
-              id="username"
-              name="username"
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="text"
+                id="username"
+                name="username"
+              />
+              <svg class="review-form-field-icon" width="18" height="24">
+                <use href="./images/icon-soc.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-field-ladel" for="user-tel">Phone</label>
-            <input
-              class="review-form-input"
-              type="tel"
-              id="user-tel"
-              name="user-tel"
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+              />
+              <svg class="review-form-field-icon" width="18" height="24">
+                <use href="./images/icon-soc.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-field-ladel" for="user-email"
               >Email</label
             >
-            <input
-              class="review-form-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-            />
+            <div class="review-form-input-wrapper">
+              <input
+                class="review-form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+              />
+              <svg class="review-form-field-icon" width="18" height="24">
+                <use
+                  class="icon-pocition"
+                  href="./images/icon-soc.svg#icon-email"
+                ></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-field-ladel" for="user-comment"
@@ -541,19 +560,25 @@
           </div>
           <div class="review-form-checkbox">
             <input
-              class="review-form-policy-checkbox"
+              class="review-form-policy-checkbox visually-hidden"
               type="checkbox"
               name="policy"
               value="true"
               id="policy"
             />
             <label class="review-form-policy-label" for="policy">
-              <span class="review-form-policy-own-checkbox"></span>
+              <span class="review-form-policy-own-checkbox">
+                <svg class="icon-galka" width="10" height="8">
+                  <use href="./images/icon-soc.svg#icon-galka"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a class="policy-style" href="">Privacy Policy</a>
             </label>
           </div>
-          <button class="review-form-submit-btn" type="submit">Send</button>
+          <button class="btn-position review-form-submit-btn" type="submit">
+            Send
+          </button>
         </form>
       </div>
     </div>

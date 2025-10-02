@@ -533,9 +533,6 @@ footer {
     background-color: #31d0aa;
 }
 
-
-
-
 .subscribe {
     margin-left: 80px;
 }
@@ -571,11 +568,11 @@ footer {
 .input {
     padding-left: 16px;
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 200%;
-        letter-spacing: 0.04em;
-        color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .input-one {
@@ -625,8 +622,24 @@ footer {
     background-color: transparent;
     padding: 0;
     line-height: 0;
-    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #e7e9fc;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }
+
+.model-close-btm:hover,
+.model-close-btm:focus {
+    background-color: #404bbf;
+    border-color: #404bbf;
+    fill: #ffffff;
+}
+
 
 .revier-four-slogan {
     font-family: "Roboto", sans-serif;        
@@ -636,38 +649,142 @@ footer {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 16px;
-    margin-top: 24px;
+    
+    margin-top: 48px;
 }
 
+.review-form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: none;
+    margin-bottom: 8px;
+}
 
+.review-form-field-wrapper {
+    position: relative;
+    margin-top: 16px;
+}
 
+.review-form-input:focus {
+    border-color: #4d5ae5;
+}
 
+.review-form-input:focus + .review-form-field-icon {
+    fill: #4d5ae5;
+}
 
-/* .model-close-btm:hover,
-.model-close-btm:focus {
+.review-form-message {
+    outline: none;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    padding-top: 8px;
+    padding-left: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    resize: none;
+}
 
-} */
+.review-form-field-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    margin-top: 5px;
+    background-color: transparent;
+}
 
+.review-form-field-ladel {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    margin-bottom: 4px;
+}
 
+.review-form-policy-label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    padding-left: 24px;
+}
 
+.policy-style {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
 
+.review-form-checkbox {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.review-form-submit-btn {
+    margin-top: 24px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.review-form-policy-own-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    cursor: pointer;
+    fill: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
+.review-form-policy-checkbox:checked + .review-form-policy-label .review-form-policy-own-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.review-form-policy-label {
+    position: relative;
+}
 
 
 

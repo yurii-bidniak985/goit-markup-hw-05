@@ -563,6 +563,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+
 }
 
 .input {
@@ -570,9 +572,11 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
 }
 
 .input-one {
@@ -584,7 +588,7 @@ footer {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -612,7 +616,7 @@ footer {
     width: 408px;
     background-color: #fcfcfc;
     padding: 24px;   
-}
+} */
 
 .model-close-btm {
     position: absolute;

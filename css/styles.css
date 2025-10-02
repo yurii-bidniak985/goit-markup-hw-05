@@ -681,6 +681,7 @@ footer {
 
 .review-form-field-icon {
     top: 50%;
+    position: absolute;
 }
 
 .revier-four-slogan {

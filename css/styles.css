@@ -709,11 +709,12 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
 }
+
 
 .review-form-policy-label {
     font-family: "Roboto", sans-serif;

@@ -676,7 +676,7 @@ footer {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .review-form-input {
@@ -703,6 +703,7 @@ footer {
 
 .review-form-input:focus + .review-form-field-icon {
     fill: #4d5ae5;
+    top: 50%
 }
 
 .review-form-message {
@@ -809,7 +810,6 @@ footer {
 }
 
 .review-form-policy-own-checkbox {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 16px;

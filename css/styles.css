@@ -557,6 +557,9 @@ footer {
     justify-content: center;
     gap: 16px;
     margin-left: 24px;
+    min-width: 165px;
+    cursor: pointer;
+    border: none;  
 }
 
 .qwerty {
@@ -567,7 +570,7 @@ footer {
 
 }
 
-.input {
+/* .input {
     padding-left: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -577,7 +580,7 @@ footer {
     color: #ffffff;
     background-color: transparent;
     border: 1px solid #ffffff;
-}
+} */
 
 .input-one {
     background-color: transparent; 
@@ -586,6 +589,15 @@ footer {
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
+}
+
+.input-one::placeholder {
+    color: #ffffff;
 }
 
 .backdrop {
